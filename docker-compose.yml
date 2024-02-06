@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  myapp:
+    image: boot-jpa-hibernate:v1.0
+    environment:
+      - DB_HOST=192.168.2.106
+      - DB_USERNAME=pippo
+      - DB_PASSWORD=Merda1
+    ports:
+      - "8090:8080"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
+
+
+

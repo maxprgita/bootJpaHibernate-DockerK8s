@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: boot-jpa-hibernate-pod
+spec:
+  containers:
+    - name: boot-jpa-hibernate-container
+      image: boot-jpa-hibernate:v1.0
+

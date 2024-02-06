@@ -1,0 +1,16 @@
+it\aips\aaBootJpaHibernate\service\AddressService.class
+it\aips\aaBootJpaHibernate\mapper\EmployeeMapper.class
+it\aips\aaBootJpaHibernate\controllers\EmployeeController.class
+it\aips\aaBootJpaHibernate\exception\GestioneGlobaleEccezioni.class
+it\aips\aaBootJpaHibernate\controllers\AddressController.class
+it\aips\aaBootJpaHibernate\repository\IAddressRepository.class
+it\aips\aaBootJpaHibernate\DTO\AddressDto.class
+it\aips\aaBootJpaHibernate\model\Employee.class
+it\aips\aaBootJpaHibernate\repository\IEmployeeRepository.class
+it\aips\aaBootJpaHibernate\controllers\AddressController$MsgStati.class
+it\aips\aaBootJpaHibernate\exception\WebMvcConfig.class
+it\aips\aaBootJpaHibernate\service\EmployeeService.class
+it\aips\aaBootJpaHibernate\DTO\EmployeeDto.class
+it\aips\aaBootJpaHibernate\model\Address.class
+it\aips\aaBootJpaHibernate\AaBootJpaHibernateApplication.class
+it\aips\aaBootJpaHibernate\mapper\AddressMapper.class

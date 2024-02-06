@@ -1,0 +1,53 @@
+
+					nomenclatura dei packages
+/*
+ * it.aips.aaBootJpaHibernate.model
+|-- Address.java
+it.aips.aaBootJpaHibernate.repository
+|-- AddressRepository.java
+it.aips.aaBootJpaHibernate.service
+|-- AddressService.java
+it.aips.aaBootJpaHibernate.controller
+|-- AddressController.java
+
+ */
+ 
+ 
+ 				nomenclatura dei metodi crud dei controller
+@RestController
+@RequestMapping("/api/users")
+public class UserController {
+
+    @Autowired
+    private UserService userService;
+
+    @GetMapping
+    public List<UserDTO> getAllUsers() {
+        return userService.getAllUsers();
+    }
+
+    @GetMapping("/{userId}")
+    public ResponseEntity<UserDTO> getUserById(@PathVariable Long userId) {
+        UserDTO userDTO = userService.getUserById(userId);
+        return ResponseEntity.ok(userDTO);
+    }
+
+    @PostMapping
+    public ResponseEntity<UserDTO> createUser(@RequestBody CreateUserRequest request) {
+        UserDTO createdUser = userService.createUser(request);
+        return ResponseEntity.status(HttpStatus.CREATED).body(createdUser);
+    }
+
+    @PutMapping("/{userId}")
+    public ResponseEntity<UserDTO> updateUser(@PathVariable Long userId, @RequestBody UpdateUserRequest request) {
+        UserDTO updatedUser = userService.updateUser(userId, request);
+        return ResponseEntity.ok(updatedUser);
+    }
+
+    @DeleteMapping("/{userId}")
+    public ResponseEntity<Void> deleteUser(@PathVariable Long userId) {
+        userService.deleteUser(userId);
+        return ResponseEntity.noContent().build();
+    }
+}
+ 

@@ -1,0 +1,15 @@
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\model\Address.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\DTO\EmployeeDto.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\DTO\AddressDto.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\service\AddressService.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\repository\IAddressRepository.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\repository\IEmployeeRepository.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\service\EmployeeService.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\mapper\AddressMapper.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\mapper\EmployeeMapper.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\controllers\AddressController.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\controllers\EmployeeController.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\exception\GestioneGlobaleEccezioni.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\exception\WebMvcConfig.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\AaBootJpaHibernateApplication.java
+D:\WS-MIO\aaBootJpaHibernate\src\main\java\it\aips\aaBootJpaHibernate\model\Employee.java
